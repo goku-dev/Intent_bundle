@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorNew"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:text="REGISTER"
+        android:textColor="@color/colorWhiteNew"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_mailres"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:hint="Email"
+        android:fontFamily="sans-serif-condensed-light"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textSize="30dp">
+
+        <requestFocus />
+
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/edt_passres"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_vertical"
+        android:hint="Password"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+
+        android:textSize="30dp">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt_cfpass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center_vertical"
+        android:hint="Confirm password"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:textSize="30dp">
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorhihi"
+        android:textColor="@color/colorWhiteNew"
+        android:text="REGISTER"
+        android:textSize="30dp"
+
+        />
+
+
+
+
+</LinearLayout>

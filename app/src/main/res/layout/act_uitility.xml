@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_phoneNumber"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:hint="phone number"
+            android:paddingLeft="16dp"
+            android:textSize="25dp"
+            />
+
+        <Button
+            android:id="@+id/bt_call"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="CALL"
+            android:textSize="20dp"
+            android:textColor="@color/colorWhiteNew"
+            android:background="@color/colorNewFR"
+            />
+
+    </TableRow>
+
+    <Button
+        android:id="@+id/bt_pickImage"
+        android:layout_marginTop="16dp"
+        android:text="PICK IMAGE"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:textSize="30dp"
+        android:background="@color/colorNewFR"
+        android:textColor="@color/colorWhiteNew"
+
+
+        />
+
+    <ImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimary"
+        />
+
+
+
+</LinearLayout>

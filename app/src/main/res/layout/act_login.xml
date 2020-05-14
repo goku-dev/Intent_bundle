@@ -3,7 +3,7 @@
 
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorNew"
+    android:background="@drawable/bg_gradient2"
     android:orientation="vertical"
     android:padding="16dp">
 
@@ -23,11 +23,11 @@
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edittext"
         android:gravity="center_vertical"
         android:hint="Email"
-        android:background="@drawable/bg_layer_edittext"
         android:inputType="text"
-        android:paddingLeft="20dp"
+        android:paddingLeft="10dp"
         android:textColor="@color/colorButton"
         android:textSize="30dp">
 
@@ -38,16 +38,15 @@
 
 
     <EditText
-        android:padding="10dp"
         android:id="@+id/edt_pass"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginTop="10dp"
-        android:background="@drawable/bg_layer_edittext"
+        android:background="@drawable/bg_edittext"
         android:gravity="center_vertical"
         android:hint="Password"
         android:inputType="text"
-        android:paddingLeft="20dp"
+        android:paddingLeft="10dp"
         android:textSize="30dp">
 
         <requestFocus />
@@ -57,23 +56,30 @@
     <Button
         android:id="@+id/bt_signin"
         android:layout_width="150dp"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@color/colorhihi"
+        android:background="@drawable/bg_selected_singin"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
         android:gravity="center"
         android:text="Sign In"
         android:textColor="@color/colorWhiteNew"
-        android:textSize="30dp"
+        android:textSize="20dp"
 
         />
+
     <Button
         android:id="@+id/bt_resLogin"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@color/colorhihi"
+        android:background="@drawable/bg_selected_singin"
+        android:clickable="true"
+        android:enabled="true"
+        android:focusable="true"
         android:text=" RESGISTER"
         android:textColor="@color/colorWhiteNew"
         android:textSize="20dp"

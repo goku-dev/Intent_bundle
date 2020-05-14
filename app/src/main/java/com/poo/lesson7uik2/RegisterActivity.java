@@ -23,10 +23,19 @@ public class RegisterActivity extends BaseActivity {
         if (intent == null) return;
         Bundle bundle = intent.getBundleExtra(LoginActivity.KEY_BUNDLE);
         if (bundle == null) return;
-        Account account = (Account) bundle.getSerializable(LoginActivity.KEY_ACCOUNT);
 
+        Account account = (Account) bundle.getSerializable(LoginActivity.KEY_ACCOUNT);
         edtUserNameRes.setText(account.getUserName());
         edtPassRes.setText(account.getPassWord());
+
+//        String pass = bundle.getString(LoginActivity.KEY_PASS);
+//        String user = bundle.getString(LoginActivity.KEY_USERNAME);
+//
+//        edtUserNameRes.setText(user);
+//        edtPassRes.setText(pass);
+
+
+
 
 
     }

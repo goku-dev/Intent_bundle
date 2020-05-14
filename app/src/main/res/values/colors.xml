@@ -16,5 +16,6 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorPrimaryDar">#3F51B5</color>
     <color name="colorPrimaryDa">#A4FFEB3B</color>
+    <color name="colorSelected">#B42196F3</color>
 
 </resources>
